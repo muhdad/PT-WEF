@@ -1,37 +1,217 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="style.css">
-      <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
-        
-    </head>
-    <body>
-        <div class="container">
-        <h1>Dar Ash-Shofy Attholibiyyah</h1>
-        <h2>INFO KAJIAN DAN TALIM BULANAN DI YAYASANA DAR ASH SHOFY ATTHOLIBIYYAH</h2>
-        <p>OUR USTADZ:</p>
-            <div class="row ">
-            <div class="column">
-                <img src="hb bakar.jpeg" style="width:500px">
-                <p>Al Ustadz Al Habib Abu Bakar Bin Ali Al Kaff</p>
-              </div>
-              <div class="column">
-                <img src="hb fahmi.jpeg" style="width:500px">
-                <p style="font-size: 20px; margin-left: -40px;">Al Ustadz Al Habib Fahmi Bin Abdul Qadir Bin Hud Al Athos</p>
-              </div>
-              <div class="column">
-                <img src="ust miftah.jpeg" style="width:500px">
-                <p>Al Ustadz Miftach Syarieef</p>
-              </div>
-              <div class="column">
-                <img src="ust yunus.jpeg" style="width:500px">
-                <p>Al Ustadz Muhammad Yunus</p>
-                </div>
-            </div>
+<html lang="en">
+<head>
+<title>dar-ash-shofy-attholibiyyah></title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
 
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">BERANDA</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ACARA</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MANAQIB</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">LOCATION</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">LAINNYA <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">PENDAFTARAN</a>
+        <a href="#" class="w3-bar-item w3-button">SEJARAH</a>
+        <a href="#" class="w3-bar-item w3-button">USTADZ</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Bp.jpeg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Haul Solo</h3>
+      <p><b>Haul Al Imam Al Habib Ali Bin Muhamma Al Habsyi</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="b2.jpeg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Maulid Rasulullash SAW</h3>
+      <p><b>Al Habib Fahmi Al Athos & Al Habib Abu Bakar Al Kaff</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="bp3.jpeg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Ziarah Makam Waliyullah</h3>
+      <p><b>Menziarahi Makam Waliyullah Bersama</b></p>    
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Dar Ash-Shofy Attholibiyyah</h2>
+    <p class="w3-opacity"><i>INFO SEPUTAR DAR ASH-SHOFY ATTHOLIBIYYAH</i></p>INI WEBSITE RESMI KAMI YANG AKAN MEMBERITAHU KAN KEPADA JAMAAH 
+  TENTANG PERIHAL ACARA HAUL BULANAN YANG AKAN KAMI ADAKAN.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <P>Al Ustadz Abu Bakar Al Kaff</p>
+        <img src="hb bakar.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Al Ustadz Fahmi Al Athos</p>
+        <img src="hb fahmi.jpeg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Al Ustadz Miftach Syarieef</p>
+        <img src="ust miftah.jpeg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Al Ustadz Muhammad Yunus</p>
+        <img src="ust yunus.jpeg" class="w3-round" alt="Random Name" style="width:60%; margin: auto;">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TANGGAL ACARA</h2>
+      <p class="w3-opacity w3-center"><i>Jangan lupa untuk memantau website ini!</i></p><br>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <!--<img alt="Akan Datang" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-white">
+            <p><b>Akan Datang</b></p>
+            <p class="w3-opacity">----</p>
+            <p>Pantau terus WEB DAR ASH SHOFY ATTHOLIBIYYAH!</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Cek Tanggal</button>
           </div>
-    </body>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!--<img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-white">
+            <p><b>Akan Datang</b></p>
+            <p class="w3-opacity">----</p>
+            <p>Pantau terus WEB DAR ASH SHOFY ATTHOLIBIYYAH!</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Cek Tanggal</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <!--<img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">-->
+          <div class="w3-container w3-white">
+            <p><b>Akan Datang</b></p>
+            <p class="w3-opacity">----</p>
+            <p>Pantau terus WEB DAR ASH SHOFY ATTHOLIBIYYAH!</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Cek Tanggal</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ticket Modal -->
+  <div id="ticketModal" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('ticketModal').style.display='none'" 
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tanggal</h2>
+      </header>
+      <div class="w3-container">
+        <p><label>TANGGAL </label></p>
+        <label>belum ada tanggal
+        <p><label>LOKASI</label></p>
+        <p><label>belum ada lokasi</label></p>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">SOSMED</h2>
+    <p class="w3-opacity w3-center"><i>CEK KAMI DI:</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-instagram" style="width:30px"></i>darashshofy<br>
+        <i class="fa fa-youtube" style="width:30px"></i> Dar Ash Shofy Attholibiyyah<br>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Powered by <a href="http://dar-ash-shofy-attholibiyyah.my.id/" target="_blank">Darashshofy</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
 </html>
