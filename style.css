@@ -35,9 +35,9 @@ p {
 
 .column {
   float: left;
-  width: 25%;
-  padding:  5px;
-  margin-bottom: 5px;
+  width: 50%;
+  padding:  10px;
+  margin-bottom: 10px;
 }
 
 .row::after {
@@ -95,9 +95,9 @@ p {
 
 .column {
   float: left;
-  width: 50%;
-  padding:  10px;
-  margin-bottom: 10px;
+  width: 25%;
+  padding:  5px;
+  margin-bottom: 5px;
 }
 
 .row::after {
@@ -117,5 +117,4 @@ p {
     margin-right: auto;
     
 }
-
-}
+    
