@@ -68,7 +68,7 @@ p {
 h1 {
     text-align: center;
     font-family: Gotham;
-    font-size: 80px;
+    font-size: 60px;
     margin-top: 20px;
     border: 2px solid brown;
     background-color: brown;
@@ -88,7 +88,7 @@ p {
 
 .column p {
     font-family: Gotham;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     margin-top: 10px;
 }
