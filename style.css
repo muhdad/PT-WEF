@@ -238,7 +238,7 @@ nav ul li a:hover {
 
     nav ul {
         position: absolute;
-        right: 400px;
+        right: 0;
         top: 0;
         width: 85%;
         height: 100vh;
