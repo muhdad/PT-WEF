@@ -197,14 +197,20 @@ nav ul li a:hover {
 
 /* ukuran tablet */
 @media screen and (max-width: 768px) {
-    nav ul {
-        width: 100%;
-    }
+  body {
+    width: 100%;
+  }
+  nav ul {
+    width: 100%;
+  }
     
 }
 
 /* ukuran mobile */
 @media screen and (max-width: 576px) {
+  body {
+    width: 100%;
+  }
     .menu-toggle {
         display: flex;
     }
